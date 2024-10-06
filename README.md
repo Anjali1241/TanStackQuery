@@ -8,3 +8,10 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 referenced Video-https://www.youtube.com/watch?v=r8Dg0KVnfMA
+
+need to understand:
+
+1. /posts --> ["posts"]
+2. /post/1 --> ["posts", post.id]// ["posts", 1]
+3. /posts?authorId=1 --> ["posts",{authorId:1}]// for filtering
+4. /posts/2/comments--> ["posts",post.id,"comments"]
