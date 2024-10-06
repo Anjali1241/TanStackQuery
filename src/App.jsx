@@ -35,9 +35,9 @@ function App() {
   if (isError) {
     return <div>{JSON.stringify(error)}</div>;
   }
-  if (postData) {
-    console.log("sdsds", postData);
-  }
+  // if (postData) {
+  //   console.log("sdsds", postData);
+  // }
   return (
     <>
       <p>TanStack Query</p>
